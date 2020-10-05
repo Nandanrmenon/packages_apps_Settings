@@ -79,12 +79,6 @@
                     android:layout_margin="@dimen/contextual_card_margin"/>
             </com.google.android.material.appbar.AppBarLayout>
 
-            <View
-                android:id="@+id/nav_view_divider"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/contextual_card_stroke_color"
-                android:layout_below="@id/top_container"/>
 
             <FrameLayout
                 android:id="@+id/main_content"
