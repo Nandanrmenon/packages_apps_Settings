@@ -112,7 +112,7 @@
     <dimen name="switchbar_subsettings_margin_start">72dp</dimen>
     <dimen name="switchbar_subsettings_margin_end">16dp</dimen>
 
-    <dimen name="settings_header_top_margin">48dp</dimen>
+    <dimen name="settings_header_top_margin">32dp</dimen>
     <dimen name="settings_header_bottom_margin">32dp</dimen>
 
     <dimen name="search_bar_margin">16dp</dimen>
