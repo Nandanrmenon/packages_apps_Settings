@@ -72,13 +72,13 @@
 
                 <include layout="@layout/search_bar"/>
 
-                <FrameLayout
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <FrameLayout
                     android:id="@+id/contextual_cards_content"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/contextual_card_margin"/>
-            </com.google.android.material.appbar.AppBarLayout>
-
 
             <FrameLayout
                 android:id="@+id/main_content"
