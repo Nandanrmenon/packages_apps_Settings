@@ -16,4 +16,7 @@
     <string name="hornbill_settings_title">Customize</string>
     <string name="hornbill_settings_summary">Tune your system</string>
 
+
+    <string name="touchscreen_gesture_settings_title"></string>
+    <string name="touchscreen_gesture_settings_summary"></string>
 </resources>
