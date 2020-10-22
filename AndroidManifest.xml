@@ -3302,7 +3302,7 @@
         </activity>
 
         <!-- FusionReactor -->
-        <activity android:name=".Settings$FusionReactorActivity"
+        <activity android:name=".Settings$Customize"
             android:label="@string/hornbill_settings_title"
             android:icon="@drawable/ic_settings_hornbill"
             android:taskAffinity="">
