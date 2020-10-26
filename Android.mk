@@ -21,7 +21,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
-LOCAL_SRC_FILES += $(call all-java-files-under, ../Customize/src)
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx-constraintlayout_constraintlayout \
@@ -53,18 +52,11 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     contextualcards \
     settings-logtags \
     zxing-core-1.7
-
-LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
-    packages/apps/Customize/res
-
+    
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     packages/apps/TouchGestures/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
-
-LOCAL_AAPT_FLAGS := --auto-add-overlay \
-    --extra-packages com.hornbill.customize
-
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled
     LOCAL_JACK_ENABLED := incremental
