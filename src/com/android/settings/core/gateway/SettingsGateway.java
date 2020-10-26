@@ -286,7 +286,7 @@ public class SettingsGateway {
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
             DarkModeSettingsFragment.class.getName(),
-            Customize.class.getName()
+            HornbillCustomize.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
