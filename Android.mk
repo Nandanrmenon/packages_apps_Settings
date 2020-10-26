@@ -63,7 +63,7 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
-    --extra-packages com.hornbill.reactor
+    --extra-packages com.hornbill.customize
 
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled
