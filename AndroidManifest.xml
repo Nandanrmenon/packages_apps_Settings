@@ -3301,13 +3301,13 @@
                 android:value="com.android.settings.gestures.GlobalActionsPanelSettings" />
         </activity>
 
-        <!-- FusionReactor -->
+        <!-- HornbillCustomize -->
         <activity android:name=".Settings$Customize"
             android:label="@string/hornbill_settings_title"
             android:icon="@drawable/ic_settings_hornbill"
             android:taskAffinity="">
             <intent-filter android:priority="1">
-                <action android:name="com.hornbill.customize" />
+                <action android:name="com.hornbill.customize.HornbillCustomize" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>

@@ -148,7 +148,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.hornbill.customize;
+import com.hornbill.customize.HornbillCustomize;
 
 public class SettingsGateway {
 

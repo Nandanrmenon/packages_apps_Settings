@@ -45,7 +45,7 @@ import com.android.settings.security.SecuritySettings;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
 
-import com.hornbill.customize;
+import com.hornbill.customize.HornbillCustomize;
 
 import java.util.Map;
 
